@@ -66,6 +66,32 @@ body{
   background-color: white;
  box-shadow: 5px 5px 5px 5px lightblue;
 }
+.container1 , .container2 , .container3
+{
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  margin: 15px;
+  margin-top: 15px;
+}
+.c11 {
+  background-color: #f1f1f1;
+  height: 300px;
+  width: 200px;
+  align-items: center;
+  font-weight: 400;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.c12{
+  background-color: #f1f1f1;
+  height: 300px;
+  width: 200px;
+  align-items: center;
+  font-weight: 400;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 
   
 
