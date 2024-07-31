@@ -1,14 +1,18 @@
 body{
-  background-color:#f1f1f1;
-}
+  background-color:#e0dada;
+  }* {box-sizing: border-box}
+  body {font-family: Verdana, sans-serif; margin:0}
+
+
 .nav{
- background-color:#f1f1f1; 
+ background-color:white; 
  height: 60px; 
  display: flex;
  margin-left: 5px;
  margin-right: 5px;
  align-items: center;
- justify-content: space-between;
+ gap: 12rem;
+
 
  }
  .start-log{
@@ -27,7 +31,7 @@ body{
  align-items: center;
  }
  .image{
-  height: 25px;
+  height: 30px;
   width: 25px;
  }
 .search{
@@ -52,9 +56,9 @@ body{
 }
 .oops{
   align-items: center;
-  justify-content: space-between;
+ margin-right: 15px;
   display: flex;
-  gap: 1.75rem;
+gap: 1.75rem;
   margin-right: 10px;
 }
 
@@ -70,8 +74,9 @@ body{
 {
   display: flex;
   background-color: white;
-  justify-content: space-between;
-  margin: 15px;
+  align-items: center;
+  justify-content: center;
+  gap: 20rem;
   margin-top: 15px;
 }
 .c11 {
@@ -83,7 +88,7 @@ body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
 }
-.c12{
+.c12 , .c13{
   background-color: #f1f1f1;
   height: 300px;
   width: 200px;
@@ -91,8 +96,66 @@ body{
   font-weight: 400;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.c11,.c12,.c13{
+  text-align: center;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.next{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
 
 
-  
 
-  
